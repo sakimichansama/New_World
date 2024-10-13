@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0; /*Clear inner and outer margins*/
+            margin: 0;
+        }
+        /* nav module */
+        .nav {
+            background-image: url(images/logo_comix-wave1.png);
+            background-repeat: no-repeat;
+            background-position: 100px;
+            text-align: center; /*Center display*/
+            height: 41px;
+            border-top: 5px solid #ff8500;
+            border-bottom: 1px solid #000;
+            background-color: #fcfcfc;
+            line-height: 41px;
+            font-size: 0; /*eliminating the spacing*/
+        }
+        .nav a {
+            height: 41px;
+            display: inline-block; /*Convert to in-line block elements*/
+            padding: 0 20px;
+            font-size: 14px;
+            color: #4c4c4c;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            background-color: #eee;
+            color: #ff8500;
+        }
+        /* head module */
+        .header {
+            font-family: 华文彩云;
+            font-size: 20px;
+            color: #ffffff;
+            background: url(images/19.png);
+            text-align: center;
+            height: 260px;
+            line-height: 260px;
+        }
+        /* Main box */
+        .introduce {
+            background-color: rgba(0, 0, 0, .1); /* Select Transparent Color */
+            text-align: center; /*Center block display*/
+            margin: 0 auto;
+            width: 1200px;
+            height: 700px;
+            border: 1px solid #4c4c4c;
+        }
+        .main {
+            margin: 30px;
+            float: left;
+            width: 800px;
+            height: 500px;
+        }
+        .main p {
+            text-align: left;
+            text-indent: 2em;
+            line-height: 26px;
+        }
+        /* picture */
+        .image {
+            margin-top: 30px;
+            float: left;
+        }
+        .image img:hover {
+            opacity: 0.7;
+        }
+        .decoration {
+            background-color: #fcfcfc;
+            background-image: url(images/截图1.png);
+            background-repeat: no-repeat;
+            height: 35px;
+            line-height: 35px;
+            text-indent: 3em;
+            border: 1px solid #4c4c4c;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .2); /*Box shadows, using gradients*/
+        }
+        /* foot module */
+        .footer {
+            overflow: hidden; /*Clear Float*/
+            margin-top: 200px;
+            border-top: 5px solid #ff8500;
+            height: 300px;
+            width: 1200px;
+        }
+        li {
+            color: #666;
+            list-style: none;
+            height: 23px;
+            line-height: 23px;
+            font-size: 12px;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="nav">
+        <a href="profile.html" target="_self">Personal profile</a>
+        <a href="animation.html" target="_self">Maior animation works</a>
+        <a href="band.html" target="_self">Collaboration band</a>
+        <a href="award.html" target="_self">Awards</a>
+    </div>
+    <!-- Header Section -->
+    <div class="header"><h1>Welcome to this fantasy world</h1></div>
+    <div class="introduce">
+        <!-- Personal Profile Content -->
+        <div class="main">
+            <h4>Personal Profile</h4>
+            <p><strong>Makoto Shinkai (新海誠), formerly known as Makoto Niitsu (新津誠)</strong>.Born February 9, 1973 in Ogai-cho, Minamisaku-gun, Nagano Prefecture, Japan.
+            Is a Japanese animation director, screenwriter, and manga writer, who graduated from Nozawa-Kita Higher School in Nagano Prefecture, Japan.
+            From the Faculty of Literature, Department of Japanese Literature, Chuo University, Japan.</p>
+            <h4>Personal Life</h4>
+            <p>Makoto Shinkai's original name was Makoto Niitsu, and he was the son of a Japanese architectural family called the Niitsu Group. 
+            Makoto is married to actress <strong>Chieko Misaka</strong>, and they have a daughter, <strong>Seiji Niitsu</strong>. </p>
+            <h4>Major Works</h4>
+            <p>On March 3, 2007, he wrote and directed the animated romance film<a href="https://baike.baidu.com/item/%E7%A7%92%E9%80%9F5%E5%8E%98%E7%B1%B3/1564357?fromModule=lemma_inlink" target="_blank">《秒速5厘米》</a>, which was released in theaters and won the Best Animated Film Award at the Asia Pacific Film Festival.</p>
+            <p>On May 31, 2013, he wrote and directed the animated romance film<a href="https://baike.baidu.com/item/%E8%A8%80%E5%8F%B6%E4%B9%8B%E5%BA%AD/1853234?fromModule=lemma_inlink" target="_blank">《言葉の庭》</a>, which was released in theaters and won the Most Outstanding Award in the Feature Film Category at the Stuttgart International Animated Film Festival.</p>
+            <p>In 2016, he wrote and directed the animated film<a href="https://baike.baidu.com/item/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97%E3%80%82/19127928?fromModule=lemma_inlink" target="_blank">《君の名は》</a>, for which he won the Best Screenplay Award at the 40th Japan Film Academy Awards and the Best Director Award at the 26th Japan Film Critics Awards.</p>
+            <p>In 2018, he directed the animated feature film<a href="https://baike.baidu.com/item/%E5%A4%A9%E6%B0%94%E4%B9%8B%E5%AD%90/23203347?fromModule=lemma_inlink" target="_blank">《天気の子》</a>. In November 2019, this film won the Best Animated Film Award at the 44th Kochi Film Awards.</p>
+        </div>
+        <!--picture module-->
+        <div class="image">
+            <a href="https://baike.baidu.com/item/%E6%96%B0%E6%B5%B7%E8%AF%9A/2722278" target="_blank"><img src="images/新海诚.jpg" alt="error" title="Makoto Shinkai"></a>
+            <div class="decoration">
+                <strong>Makoto Shinkai's overview chart</strong>
+            </div>
+        </div>
+        <!--footer module-->
+        <div class="footer"> 
+            <h4>reference</h4>
+            <ul>
+                <li>1. Anime Dictionary Editing Room, Advanced Chapter 1 of Anime Dictionary Animation Volume. Shenyang: Shenyang Publishing House, 2015. Page 61</li>
+                <li>2. Anime Dictionary Editing Room, Advanced Chapter 1 of Anime Dictionary Animation Volume. Shenyang Shenyang Publishing House, 2015. Page 62</li>
+                <li>3.プロフィール,Other voices -远い声- </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

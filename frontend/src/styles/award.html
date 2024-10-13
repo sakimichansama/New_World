@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0; /*Clear inner and outer margins*/
+            margin: 0;
+        }
+        /* nav module */
+        .nav {
+            background-image: url(images/logo_comix-wave1.png);
+            background-repeat: no-repeat;
+            background-position: 100px;
+            text-align: center; /*Center display*/
+            height: 41px;
+            border-top: 5px solid #ff8500;
+            border-bottom: 1px solid #000;
+            background-color: #fcfcfc;
+            line-height: 41px;
+            font-size: 0; /*eliminating the spacing*/
+        }
+        .nav a {
+            height: 41px;
+            display: inline-block; /*Convert to in-line block elements*/
+            padding: 0 20px;
+            font-size: 14px;
+            color: #4c4c4c;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            background-color: #eee;
+            color: #ff8500;
+        }
+        /* Main box */
+        .main {
+            width: 1200px;
+            height: 460px;
+            margin: 0 auto;
+            background-color: antiquewhite;
+        }
+        /* The box on the left. */
+        .left {
+            float: left;
+            width: 230px;
+            height: 460px;
+            background-color: rgba(0, 0, 0, .3);
+        }
+        .left p {
+            text-align: right;
+            text-indent: 2em;
+            font-family: 华文隶书;
+            font-size: 12px;
+            color: #eee;
+            padding: 15px;
+            width: 200px;
+            height: 62px;
+        }
+        .left a {
+            text-decoration: none;
+        }
+        .left p:hover {
+            background-color: rgba(0, 0, 0, .5);
+        }
+        .left img {
+            float: left;
+        }
+        /* The box on the right. */
+        .right {
+            float: left;
+            width: 970px;
+            height: 460px;
+        }
+        .right a:hover {
+            opacity: 0.9;
+        }
+        /* end box */
+        .footer {
+            list-style-type: none;
+            width: 1210px;
+            height: 285;
+            margin: 0 auto;
+            background-color: antiquewhite;
+        }
+        li {
+            text-align: center;
+            background-color: antiquewhite;
+            width: 280px;
+            height: 265px;
+            float: left;
+            margin: 10px;
+            border: 1px solid #4c4c4c;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .3);
+        }
+        li a:hover {
+            opacity: 0.9;
+        }
+        .p1 {
+            font-size: 14px;
+            font-family: 华文隶书;
+            margin: 5px;
+            border-bottom: 1px solid #4c4c4c;
+        }
+        .p2 {
+            font-size: 20px;
+            font-family: 华文行楷;
+            color: #4c4c4c;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="nav">
+        <a href="profile.html" target="_self">Personal profile</a>
+        <a href="animation.html" target="_self">Maior animation works</a>
+        <a href="band.html" target="_self">Collaboration band</a>
+        <a href="award.html" target="_self">Awards</a>
+    </div>
+    <!--main module-->
+    <div class="main">
+        <div class="left">
+            <a href="http://cn.shinkaiworks.com/profile" target="_blank"><p><img src="images/lo1.png" alt="error" title="Award">《秒速5厘米》: 2007 Asia Pacific Film Festival Best Animated Feature Film Best Animation Award</p></a>
+            <a href="http://cn.shinkaiworks.com/profile" target="_blank"><p><img src="images/lo1.png" alt="error" title="Award">: 2013 iTunes Best 2013 Animation of the Year</p></a>
+            <a href="http://cn.shinkaiworks.com/profile" target="_blank"><p><img src="images/lo1.png" alt="error" title="Award">《君の名は》: 2016 The 41st Newspaper Film Festival Special Award</p></a>
+            <a href="http://cn.shinkaiworks.com/profile" target="_blank"><p><img src="images/lo1.png" alt="error" title="Award">《君の名は》: 2017 40th Japanese Academy Awards Best Script / Best Music / Outstanding Animation Work / Topic Award</p></a>
+            <a href="http://cn.shinkaiworks.com/profile" target="_blank"><p><img src="images/lo1.png" alt="error" title="Award">《天気の子》: 2019 13th Asia Pacific Film Awards for Best Animated Film</p></a>
+    </div>
+    <div class="right">
+        <a href="http://cn.shinkaiworks.com/profile" target="_blank"><img src="images/gg1.jpg" alt="error" title="Congratulations"></a>
+    </div>
+    <!--footer module-->
+    <ul class="footer">
+        <li><a href="http://cn.shinkaiworks.com/profile" target="_blank"><img src="images/gg31.jpg" alt="error" title="しんかい まこと"></a><p class="p1">Hope you like 《秒速5厘米》</p><p class="p2"><p>新海誠</p></li>
+        <li><a href="http://cn.shinkaiworks.com/profile" target="_blank"><img src="images/gg51.jpg" alt="error" title="しんかい まこと"></a><p class="p1">Hope you like 《天気の子》</p><p class="p2">新海誠</p></li>
+        <li><a href="http://cn.shinkaiworks.com/profile" target="_blank"><img src="images/gg61.jpg" alt="error" title="しんかい まこと"></a><p class="p1">Hope you like 《言葉の庭》</p><p class="p2">新海誠</p></li>
+        <li><a href="http://cn.shinkaiworks.com/profile" target="_blank"><img src="images/gg41.jpg" alt="error" title="しんかい まこと"></a><p class="p1">Hope you like 《君の名は》</p><p class="p2">新海誠</p></li>
+    </ul>
+</body>
+</html>
