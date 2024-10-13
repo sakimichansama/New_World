@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0; /*Clear inner and outer margins*/
+            margin: 0;
+        }
+        /* nav module */
+        .nav {
+            background-image: url(images/logo_comix-wave1.png);
+            background-repeat: no-repeat;
+            background-position: 100px;
+            text-align: center; /*Center display*/
+            height: 41px;
+            border-top: 5px solid #ff8500;
+            border-bottom: 1px solid #000;
+            background-color: #fcfcfc;
+            line-height: 41px;
+            font-size: 0; /*eliminating the spacing*/
+        }
+        .nav a {
+            height: 41px;
+            display: inline-block; /*Convert to in-line block elements*/
+            padding: 0 20px;
+            font-size: 14px;
+            color: #4c4c4c;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            background-color: #eee;
+            color: #ff8500;
+        }
+        .background {
+            background-color: rgba(0, 0, 0, .1); /* Select Transparent Color */
+        }
+        .main {
+            background-color: rgba(82, 51, 108, 0.1);
+            margin: 0 auto;
+            width: 1000px;
+            height: 1800px;
+            border: 1px solid #4c4c4c;
+        }
+        h2 {
+            font-size: 80px;
+            color: rgba(20, 55, 161, 0.9);
+            font-family: 华文彩云;
+            padding: 75px;
+            background-image: url(images/22.jpg);
+            height: 50px;
+            text-align: center;
+        }
+        /* The first module */
+        .film1 {
+            float: left;
+            background-color: rgba(51, 122, 210, 0.2);
+            text-align: center;
+            width: 375px;
+            height: 600px;
+            margin: 50px;
+            border: 1px dotted #4c4c4c;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .3);
+        }
+        .film1:hover {
+            background-color: rgba(90, 164, 196, 0.1);
+        }
+        .film1 a {
+            display: inline-block;
+        }
+        .film1:hover img {
+            opacity: 0.7;
+        }
+        .film1 .p1 {
+            font-family: 华文隶书;
+            height: 70px;
+            border-bottom: 1px solid #4c4c4c;
+            font-size: 12px;
+            padding: 10px 28px;
+            margin: 20px;
+        }
+        .film1 .p2 {
+            text-indent: 2em;
+            font-size: 13px;
+            text-align: left;
+            padding: 10px;
+            margin: 10px;
+        }
+        /* module 2 */
+        .film2 {
+            float: left;
+            background-color: rgba(51, 122, 210, 0.2);
+            text-align: center;
+            width: 375px;
+            height: 600px;
+            margin: 50px;
+            border: 1px dotted #4c4c4c;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .3);
+        }
+        .film2:hover {
+            background-color: rgba(90, 164, 196, 0.1);
+        }
+        .film2 a {
+            display: inline-block;
+        }
+        .film2:hover img {
+            opacity: 0.7;
+        }
+        .film2 .p1 {
+            font-family: 华文隶书;
+            height: 70px;
+            border-bottom: 1px solid #4c4c4c;
+            font-size: 12px;
+            padding: 10px 28px;
+            margin: 20px;
+        }
+        .film2 .p2 {
+            text-indent: 2em;
+            font-size: 13px;
+            text-align: left;
+            padding: 10px;
+            margin: 10px;
+        }
+        /* module 3 */
+        .film3 {
+            float: left;
+            background-color: rgba(51, 122, 210, 0.2);
+            text-align: center;
+            width: 375px;
+            height: 600px;
+            margin: 50px;
+            border: 1px dotted #4c4c4c;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .3);
+        }
+        .film3:hover {
+            background-color: rgba(90, 164, 196, 0.1);
+        }
+        .film3 a {
+            display: inline-block;
+        }
+        .film3:hover img {
+            opacity: 0.7;
+        }
+        .film3 .p1 {
+            font-family: 华文隶书;
+            height: 70px;
+            border-bottom: 1px solid #4c4c4c;
+            font-size: 12px;
+            padding: 10px 28px;
+            margin: 20px;
+        }
+        .film3 .p2 {
+            text-indent: 2em;
+            font-size: 13px;
+            text-align: left;
+            padding: 10px;
+            margin: 10px;
+        }
+        /* module 4 */
+        .film4 {
+            float: left;
+            background-color: rgba(51, 122, 210, 0.2);
+            text-align: center;
+            width: 375px;
+            height: 600px;
+            margin: 50px;
+            border: 1px dotted #4c4c4c;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .3);
+        }
+        .film4:hover {
+            background-color: rgba(90, 164, 196, 0.1);
+        }
+        .film4 a {
+            display: inline-block;
+        }
+        .film4:hover img {
+            opacity: 0.7;
+        }
+        .film4 .p1 {
+            font-family: 华文隶书;
+            height: 70px;
+            border-bottom: 1px solid #4c4c4c;
+            font-size: 12px;
+            padding: 10px 28px;
+            margin: 20px;
+        }
+        .film4 .p2 {
+            text-indent: 2em;
+            font-size: 13px;
+            text-align: left;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--background-->
+    <div class="background">
+         <!-- Navigation Bar -->
+        <div class="nav">
+            <a href="profile.html" target="_self">Personal profile</a>
+            <a href="animation.html" target="_self">Maior animation works</a>
+            <a href="band.html" target="_self">Collaboration band</a>
+            <a href="award.html" target="_self">Awards</a>
+        </div>
+        <!--main module-->
+        <div class="main">
+            <h2>Major animation works</h2>
+            <div class="film1">
+                <a href="https://baike.baidu.com/item/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97%E3%80%82/19127928?fromModule=lemma_inlink" target="_blank">
+                <img src="images/c.jpg" alt="error" title="《君の名は》">
+                </a>
+                <h6>君の名は</h6>
+                <p class="p1">The film tells the story of male and female high school students meeting in their dreams and searching for each other</p>
+                <p class="p2"><a href="https://baike.baidu.com/item/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97%E3%80%82/19127928?fromModule=lemma_inlink" target="_blank">《君の名は》</a>is an original Japanese animated film directed by <strong>Makoto Shinkai</strong>, with <strong>Kamiki Ryunosuke and Mone Kamishiraishi</strong> as the main voice actors. It was produced by <strong>Comix Wave Films</strong> and released in Japan on August 26, 2016. It was released in Chinese Mainland on December 2, 2016.</p>
+            </div>
+            <div class="film2">
+                <a href="https://baike.baidu.com/item/%E8%A8%80%E5%8F%B6%E4%B9%8B%E5%BA%AD/1853234?fromModule=lemma_inlink" target="_blank">
+                <img src="images/m.jpg" alt="error" title="《言葉の庭》">
+                </a>
+                <h6>言葉の庭</h6>
+                <p class="p1">The story originates from the "lonely and sorrowful" love story at the beginning of the Manyo collection, which reveals factors such as shoes, Manyo collection, Japanese gardens, rain...</p>
+                <p class="p2"><a href="https://baike.baidu.com/item/%E8%A8%80%E5%8F%B6%E4%B9%8B%E5%BA%AD/1853234?fromModule=lemma_inlink" target="_blank">《言葉の庭》</a>Led by <strong>Makoto Shinkai</strong>, the film was simultaneously released in Taiwan, Hong Kong, and Japan on May 31, 2013. Main voice actors: <strong>Hanazawa Kana and Irino Miyu</strong>.</p>
+            </div>
+            <div class="film3">
+                <a href="https://baike.baidu.com/item/%E7%A7%92%E9%80%9F5%E5%8E%98%E7%B1%B3/1564357?fromModule=lemma_inlink" target="_blank">
+                <img src="images/s.jpg" alt="error" title="《秒速5厘米》">
+                </a>
+                <h6>秒速5厘米</h6>
+                <p class="p1">It is a short animation with three separate stories centered on a young boy, set in Japan from the 1990s to the modern day, showing the changes in Tokyo and other areas through the life of a young boy.</p>
+                <p class="p2"><a href="https://baike.baidu.com/item/%E7%A7%92%E9%80%9F5%E5%8E%98%E7%B1%B3/1564357?fromModule=lemma_inlink" target="_blank">《秒速5厘米》</a>Episode 1:《桜の書記》. Episode 2:《宇宙飛行士》. Episode 3:《秒速5厘米》.Main voice actors: <strong>Kenji Mizuhashi,Yoshimi Kondou,Satomi Hanamura,Aya Onoue.</strong></p>
+            </div>
+            <div class="film4">
+                <a href="https://baike.baidu.com/item/%E5%A4%A9%E6%B0%94%E4%B9%8B%E5%AD%90/23203347?fromModule=lemma_inlink" target="_blank">
+                <img src="images/n.jpg" alt="error" title="《天気の子》">
+                </a>
+                <h6>天気の子</h6>
+                <p class="p1">The movie tells a fantasy love story between a young man, Hidaka, and a young girl, Yona, who has the power to manipulate the weather.</p>
+                <p class="p2"><a href="https://baike.baidu.com/item/%E5%A4%A9%E6%B0%94%E4%B9%8B%E5%AD%90/23203347?fromModule=lemma_inlink" target="_blank">《天気の子》</a> is an original animated film directed by <strong>Makoto Shinkai</strong> and produced by <strong>Comix Wave Films</strong>, which was released in Japan on July 19, 2019, and online in mainland China on July 21, 2020, where bilibili's Japanese version is a Blu-ray Disc source with subtitles that differ from the theater.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

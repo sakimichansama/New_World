@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0; /*Clear inner and outer margins*/
+            margin: 0;
+        }
+        /* nav module */
+        .nav {
+            background-image: url(images/logo_comix-wave1.png);
+            background-repeat: no-repeat;
+            background-position: 100px;
+            text-align: center; /*Center display*/
+            height: 41px;
+            border-top: 5px solid #ff8500;
+            border-bottom: 1px solid #000;
+            background-color: #fcfcfc;
+            line-height: 41px;
+            font-size: 0; /*eliminating the spacing*/
+        }
+        .nav a {
+            height: 41px;
+            display: inline-block; /*Convert to in-line block elements*/
+            padding: 0 20px;
+            font-size: 14px;
+            color: #4c4c4c;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            background-color: #eee;
+            color: #ff8500;
+        }
+        .introduce {
+            background-color: rgba(219, 234, 133, 0.3);
+            padding: 50PX;
+            border-radius: 20px;
+            float: left;
+            width: 840px;
+            height: 750px;
+            margin: 30px;
+            border: 1px solid #4c4c4c;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .3);
+        }
+        h3 {
+            background-color: rgba(58, 149, 169, 0.3);
+            width: auto;
+            height: 30px;
+        }
+        .right1 {
+            margin: 20px;
+        }
+        .right2 {
+            margin: 20px;
+        }
+        .right3 {
+            margin: 20px
+        }
+        .picture {
+            float: left;
+            border: 2px solid #4c4c4c;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+        }
+        .picture a img:hover {
+            opacity: 0.7;
+        }
+        .p1 {
+            text-indent: 2em;
+            font-size: 15px;
+            float: right;
+            width: 400px;
+            height: 270px;
+            margin: 60px
+        }
+        h4 {
+            margin: 40px;
+            font-family: 华文隶书;
+            float: left;
+            border-bottom: 5px solid rgba(58, 149, 169, 0.3);
+        }
+        h4 a {
+            text-decoration: none;
+
+        }
+        h4 a:hover {
+            background-color: rgba(50, 139, 159, 0.3);
+            color: rgb(11, 69, 67);
+        }
+        h4 a:active {
+            color: #eee;
+        }
+        ul {
+            font-family: 华文行楷;
+            font-size: 14px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+     <!-- Navigation Bar -->
+    <div class="nav">
+        <a href="profile.html" target="_self">Personal profile</a>
+        <a href="animation.html" target="_self">Maior animation works</a>
+        <a href="band.html" target="_self">Collaboration band</a>
+        <a href="award.html" target="_self">Awards</a>
+    </div>
+    <!--introduce module-->
+    <div class="introduce">
+        <h3><img src="images/logo.png" alt="error"></h3>
+        <div class="picture">
+            <a href="https://baike.baidu.com/item/%E6%8B%89%E5%BE%B7%E6%B8%A9%E6%99%AE%E6%96%AF/58840941" target="_blank">
+            <img src="images/rad521.jpg" alt="error" title="RADWIMPS">
+            </a>
+        </div>
+        <p class="p1"><strong>Radwimps (拉德温普斯, ラッドウインプス)</strong>, a Japanese rock band , abbreviated as RAD, consists of <a href="https://baike.baidu.com/item/%E9%87%8E%E7%94%B0%E6%B4%8B%E6%AC%A1%E9%83%8E/10359955?fromModule=lemma_inlink" target="_blank">Noda Yojiro</a> on vocals and guitar, Akira Kuwabara on guitar, Yusuke Takeda on bass, and Tomofumi Yamaguchi on drums. The band is affiliated with Universal Music's Muzinto Records and Hyundai Records.</p>
+        <h4><a href="https://music.163.com/#/album?id=80440087" target="_blank">albums for 《天気の子》:</a></h4>
+        <!--example albums-->
+        <ul>
+            <li>01.  『天気の子』のテーマ優しさの味K&A 初訪問占秘館へようこそK&A 入社式风たちの声 (Movie edit)陽菜</li>
+            <li>02.  救出晴れゆく空空の海御宅訪問初の晴れ女バイト祝祭 (Movie edit)花火大会気象神社 芝公園二つの告白首都危機真夏の雪天気の力家族の時間消えゆく陽菜永遠の雲の上晴天と喪失 帆高</li>
+            <li>03.  逃走 ~子供達の画策バイクチェイス陽菜と</li>
+            <li>04.  走る帆高愛にできることはまだあるかい (Movie edit)グランドエスケープ (Movie edit)ふたたびの</li>
+            <li>05.  雨大丈夫 (Movie edit)爱能做到的还有什么</li>
+            <li>...</li>
+        </ul>
+        <h4><a href="https://music.163.com/#/album?id=153778832" target="_blank">《すずめの戸締まり》</a><a href="https://music.163.com/#/album?id=34841090" target="_blank">《君の名は》</a></h4>
+        <ul>
+            <li>01.   夢灯籠三葉の通学糸守高校はじめての</li>
+            <li>02.   東京憧れカフェ奥寺先輩のテーマふたりの異変前前前世(movie ver.)御神体デート秋祭り記憶を呼び起こす瀧飛騨探訪 消えた町図書館旅館の夜御神体へ再び口噛み酒トリップ作戦会議町長説得三葉のテーマ見えないふたりかたわれ時スパークル(movie ver.) デート2没什么大不了(movie edit)没什么大不了(movie ver.)</li>
+            <li>03.   東京上空</li>
+            <li>...</li>
+        </ul>
+    </div>
+    <!--right picture-->
+    <div class="right1">
+        <img src="images/rad2.jpg" alt="error" title="RADWIMPS">
+    </div>
+    <div class="right2">
+        <img src="images/rad3.jpg" alt="error" title="RADWIMPS">
+    </div>
+    <div class="right3">
+        <img src="images/rad5.jpg" alt="error" title="RADWIMPS">
+    </div>
+</body>
+</html>
